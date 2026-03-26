@@ -43,15 +43,21 @@ function addProduct() {
   li.classList.add('cart-item');
   li.dataset.price = price;
 
-  // Create text span
+  // Create text span - Name and Price tofixed = decimal points/places
   const span = document.createElement('span');
+  span.textContent = `${name} - $${price.toFixed(2)}`;
+  console.log(span.textContent);
 
   // Create remove item button
   const removeButton = document.createElement('button');
   removeButton.textContent = 'Remove';
   removeButton.addEventListener('click', removeItem);
-
   console.log('Removing item with price:', price);
+
+  // Assemble and append
+
+  // Update Total
+  updateTotalPrice(price);
 }
 addProductButton.addEventListener('click', addProduct);
 // addProductButton.addEventListener('click', function() {

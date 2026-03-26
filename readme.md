@@ -40,7 +40,7 @@ After researching the pre-written script.js code, I started by coding the addPro
 
   1. There isn't a need for a HTML "remove" button tag, the remove button is created entirely in javascript and added to the DOM dynamically with document.createElement('button') which then attaches the removeItem function directly to the item.
 
-  2. 
+  2. consistent validations with console.log[ging] and working with chrom dev tools - console. 
 
   3. 
 
@@ -51,7 +51,7 @@ After researching the pre-written script.js code, I started by coding the addPro
 ## AI Collaboration
 
   - ChatGBT
-    - debugging
+    - debugging and Q&A
 
 ## Author
 
@@ -60,7 +60,8 @@ Zac White
 ## Acknowledgmentss
 
   - [developer.mozilla.org](https://developer.mozilla.org/en-US/)
-  - [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat) ParseFloat()
+  		- ParseFloat() - parse a string argument and returns a floating number.
+  		- price.toFixed() - decimal points (2)
   - [youtube.com](https://www.youtube.com/@TraversyMedia/search?query=DOM%20crash) Traversy Media
   - [jshint.com](https://jshint.com/) 
 
