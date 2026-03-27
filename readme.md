@@ -55,9 +55,9 @@ Zac White
 
 ## Acknowledgmentss
 
-  - [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Element#events) Element
-  		-ParseFloat() - parse a string argument and returns a floating number.
-  		-Price.toFixed() - decimal points (2)
+  - [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Element#events) Element  
+  		-ParseFloat()-parse a string argument and returns a floating number    
+  		-Price.toFixed()-decimal points (2)   
   - [youtube.com](https://www.youtube.com/@TraversyMedia/search?query=DOM%20crash) Traversy Media
   - [jshint.com](https://jshint.com/) 
 
