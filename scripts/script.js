@@ -25,7 +25,7 @@ function addProduct() {
   const name = productNameInput.value.trim();
   const price = parseFloat(productPriceInput.value);
 
-  // Edge case handling - invalid test, invalid price
+  // Edge case handling - invalid text, invalid price
   if (name === '') {
     alert('Please enter a product name.');
     return;
@@ -55,9 +55,16 @@ function addProduct() {
   console.log('Removing item with price:', price);
 
   // Assemble and append
+  li.appendChild(span);
+  li.appendChild(removeButton);
+  cart.appendChild(li);
 
   // Update Total
   updateTotalPrice(price);
+
+  //Clear input values
+  productNameInput.value = '';
+  productPriceInput.value = '';
 }
 addProductButton.addEventListener('click', addProduct);
 // addProductButton.addEventListener('click', function() {
