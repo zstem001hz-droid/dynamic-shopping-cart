@@ -1,4 +1,4 @@
-# SBA Mod 5: Lab Dynamic Content Creation - Shopping Cart
+# Mod 5: Lab 1 - Dynamic Content Creation - Shopping Cart
 
 Creating a dynamic shopping cart application to practice and reinforce DOM manipulation skills. The application will allow users to add, update, and remove "items" dynamically from a virtual shopping cart, while keeping track of the total price. This lab focuses on modifying elements, creating and appending new elements, and updating content dynamically using JavaScript.
 
