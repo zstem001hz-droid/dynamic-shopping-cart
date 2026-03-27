@@ -40,9 +40,9 @@ After researching the pre-written script.js code, I started by coding the addPro
 
   1. There isn't a need for a HTML "remove" button tag, the remove button is created entirely in javascript and added to the DOM dynamically with document.createElement('button') which then attaches the removeItem function directly to the item.
 
-  2. consistent validations with console.log[ging] and working with chrom dev tools - elements / console. 
+  2. Consistently validating code with console.log[ging] and working with chrome dev tools - elements console.
 
-  3. 
+  3. li.appendChild(span) and li.appendChild(RemoveButton) assembles the <li> in memory first, then cart.appendChild(li) adds it to the page in one operation, more efficient than adding incomplete elements to the DOM in pieces. 
 
   4. 
   

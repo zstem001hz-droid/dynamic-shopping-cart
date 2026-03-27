@@ -16,6 +16,8 @@ function updateTotalPrice(amount) {
 function removeItem(event) {
   const item = event.target.closest('li');
   const price = parseFloat(item.dataset.price);
+  console.log('Removing item with price:', price);
+
   updateTotalPrice(-price);
   item.remove();
 }
