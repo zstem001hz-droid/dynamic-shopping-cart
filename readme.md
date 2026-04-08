@@ -46,7 +46,7 @@ After researching the pre-written script.js code, I started by coding the addPro
 
 ## AI Collaboration
 
-  - ChatGBT
+  - ChatGPT
     - debugging and Q&A
 
 ## Author
