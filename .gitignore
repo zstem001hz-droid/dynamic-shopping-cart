@@ -1,1 +1,16 @@
+# VS Code
 .vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Dependencies
+node_modules
+
+# Environment variables
+.env
+
+# Compiled output
+dist
